@@ -1,0 +1,18 @@
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username":"test",
+    "password":"test",
+    "email":"test@test.com"
+}
+
+###
+GET  http://localhost:3000/protected
+
+###
+GET  http://localhost:3000/logout
+###
+
+GET http://localhost:3000/allusers
